@@ -1,17 +1,28 @@
-from math import factorial
+def pascal_triangle(n:int):
  
-# input n
-n = 5
-for i in range(n):
-    for j in range(n-i+1):
+    # An auxiliary array to store
+    # generated pascal triangle values
+    arr = [[0 for x in range(n)]
+              for y in range(n)]
  
-        # for left spacing
-        print(end=" ")
+    # Iterate through every line
+    # and print integer(s) in it
+    for line in range (0, n):
  
-    for j in range(i+1):
+        # Every line has number of
+        # integers equal to line number
+        for i in range (0, line + 1):
  
-        # nCr = n!/((n-r)!*r!)
-        print(factorial(i)//(factorial(j)*factorial(i-j)), end=" ")
+            # First and last values
+            # in every row are 1
+            if(i is 0 or i is line):
+                arr[line][i] = 1
+                print(arr[line][i], end = " ")
  
-    # for new line
-    print()
+            # Other values are sum of values
+            # just above and left of above
+            else:
+                arr[line][i] = (arr[line - 1][i - 1] +
+                                arr[line - 1][i])
+                print(arr[line][i], end = " ")            
+        print("\n", end = "")
