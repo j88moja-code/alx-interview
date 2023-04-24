@@ -2,7 +2,7 @@
 
 `mandatory_tasks`
 
-* [0-validate_utf8.py]() - a method that determines if a given data set represents a valid UTF-8 encoding.
+* [0-validate_utf8.py](https://github.com/j88moja-code/alx-interview/blob/master/0x04-utf8_validation/0-validate_utf8.py) - a method that determines if a given data set represents a valid UTF-8 encoding.
 
 	* Prototype: `def validUTF8(data)`
 	* Return: `True` if data is a valid UTF-8 encoding, else return `False`
