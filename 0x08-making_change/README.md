@@ -2,7 +2,7 @@
 
 `mandatory_tasks`
 
-* [0-making_change.py]() - given a pile of coins of different values, determine the fewest number of coins needed to meet a given amount `total`.
+* [0-making_change.py](https://github.com/j88moja-code/alx-interview/blob/master/0x08-making_change/0-making_change.py) - given a pile of coins of different values, determine the fewest number of coins needed to meet a given amount `total`.
 
 	* Prototype: `def makeChange(coins, total)`
 	* Return: fewest number of coins needed to meet `total`
