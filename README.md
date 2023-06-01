@@ -9,4 +9,5 @@
 ## [0x06-starwars_api](https://github.com/j88moja-code/alx-interview/tree/master/0x06-starwars_api) - Algorithm API JavaScript
 ## [0x07-rotate_2d_matrix](https://github.com/j88moja-code/alx-interview/tree/master/0x07-rotate_2d_matrix) - Algorithm Python Project
 ## [0x08-making_change](https://github.com/j88moja-code/alx-interview/tree/master/0x08-making_change) - Algorithm Python Project
-## [0x09-island_perimeter]() - Algorithm Python Project
+## [0x09-island_perimeter](https://github.com/j88moja-code/alx-interview/tree/master/0x09-island_perimeter) - Algorithm Python Project
+## [0x0A-primegame]() - Algorithm Python Project
